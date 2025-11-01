@@ -29,7 +29,7 @@ const About = () => {
   });
 
   return (
-    <div id="about" className="min-h-screen w-screen">
+    <section id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <AnimatedTitle
           title="We're a community of curious learners,<br /> creative builders, and passionate technologists."
@@ -56,7 +56,7 @@ const About = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
